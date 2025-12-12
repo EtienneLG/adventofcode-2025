@@ -1,0 +1,36 @@
+#include "utils.h"
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+
+static int partOne()
+{
+    return 0;
+}
+
+
+static int partTwo()
+{
+    return 0;
+}
+
+
+int main(int argc, char *argv[])
+{
+    if (argc == 2)
+    {
+        if (*argv[1] == '1')
+            cout << partOne();
+        else if (*argv[1] == '2')
+            cout << partTwo();
+        else
+            cout << "Error : Type 1 or 2";
+    }
+    else
+        cout << "Error : Enter a part (1 or 2)";
+    cout << endl;
+
+    return 0;
+}
